@@ -7,3 +7,6 @@
 - https://flowbite.com/docs/getting-started/introduction/
 
 - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+- https://headlessui.com/
+- https://tailwindui.com/

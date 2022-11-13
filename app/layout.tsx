@@ -1,5 +1,6 @@
 import './globals.css'
 import NavBar from './NavBar'
+import Footer from './Footer'
 
 export default function RootLayout({
   children,
@@ -9,9 +10,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head />
-      <body>
+      <body className="flex flex-col min-h-screen">
         <NavBar />
         {children}
+        <Footer />
       </body>
     </html>
   )
