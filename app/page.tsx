@@ -2,18 +2,18 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <div>
-      <main className="flex-col py-12 border justify-center">
-        <h1 className="text-center text-3xl font-bold underline">
+    <div className="flex flex-col min-h-screen" >
+      <main className="flex-col py-12 justify-center">
+        < h1 className="text-center text-3xl font-bold underline" >
           Hello, Next.js!
-        </h1>
+        </h1 >
 
         <p className="text-center py-2">
           Get started by editing{' '}
           <code >app/page.tsx</code>
         </p>
 
-        <div className="flex flex-col sm:flex-row border p-8 justify-center">
+        <div className="flex flex-col sm:flex-row p-8 justify-center gap-4">
           <a href="https://beta.nextjs.org/docs"
             className="text-center border rounded-xl shadow-lg p-8 space-y-4"
           >
@@ -39,14 +39,13 @@ export default function Home() {
             <p>Deploy your Next.js site to a public URL with Vercel.</p>
           </a>
         </div>
-      </main>
+      </main >
 
-      <footer className="min-w-full flex p-4 rounded-lg shadow">
+      <footer className="mt-auto p-8 flex items-center justify-center gap-0 rounded-xl shadow-lg">
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
-          className="mx-auto border"
         >
           Powered by{' '}
           <span>
@@ -54,6 +53,6 @@ export default function Home() {
           </span>
         </a>
       </footer>
-    </div>
+    </div >
   )
 }
