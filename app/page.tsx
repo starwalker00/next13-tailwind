@@ -2,15 +2,15 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen" >
-      <main className="flex-col py-12 justify-center">
-        < h1 className="text-center text-3xl font-bold underline" >
+    <div className="flex flex-col justify-center items-center h-screen">
+      <main className="pt-[10%] flex-grow bg-indigo-100">
+        <h1 className="text-center text-3xl font-bold underline">
           Hello, Next.js!
-        </h1 >
+        </h1>
 
         <p className="text-center py-2">
           Get started by editing{' '}
-          <code >app/page.tsx</code>
+          <code>app/page.tsx</code>
         </p>
 
         <div className="flex flex-col sm:flex-row p-8 justify-center gap-4">
@@ -39,9 +39,9 @@ export default function Home() {
             <p>Deploy your Next.js site to a public URL with Vercel.</p>
           </a>
         </div>
-      </main >
+      </main>
 
-      <footer className="mt-auto p-8 flex items-center justify-center gap-0 rounded-xl shadow-lg">
+      <footer className="p-8 self-stretch flex justify-center gap-0 shadow-lg bg-indigo-300">
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
@@ -53,6 +53,6 @@ export default function Home() {
           </span>
         </a>
       </footer>
-    </div >
+    </div>
   )
 }
