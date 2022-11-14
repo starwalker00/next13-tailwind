@@ -10,3 +10,4 @@
 
 - https://headlessui.com/
 - https://tailwindui.com/
+- https://heroicons.com/
