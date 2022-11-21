@@ -1,9 +1,9 @@
-export default function ExplorePage() {
+export default function ProjectPage() {
     return (
         <div className="grow flex flex-col justify-center items-center">
             <main className="pt-[10%] flex-grow bg-indigo-100">
                 <h1 className="text-center text-3xl font-bold underline">
-                    ExplorePage
+                    ProjectPage
                 </h1>
 
                 <p className="text-center py-2">
